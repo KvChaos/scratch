@@ -71,7 +71,7 @@ console.log(`fahrenheit:  ${JSON.stringify(fahrenheit)}`);
 // Union of Arrays
 let arrA = [1, 4, 3, 2];
 let arrB = [5, 2, 6, 7, 1];
-let unionResult = [...new Set([...arrA, ...arrB])]; 
+let unionResult = [...new Set([...arrA, ...arrB])];
 console.log(`unionResult:  ${JSON.stringify(unionResult)}`);
 
 
